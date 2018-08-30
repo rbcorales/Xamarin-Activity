@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Activity"
+             x:Class="Activity.MainPage" BackgroundColor="#127ac7" Title="Main Page">
+
+    <StackLayout HorizontalOptions="Fill" VerticalOptions="Center" >
+        <Label Text="Xamarin Exercises" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" TextColor="#fff"></Label>
+        
+        <Button Text="Exercise 1" BackgroundColor="#1dabf0" TextColor="#fff" Clicked="Button_Clicked_0" ></Button>
+        <Button Text="Exercise 2" BackgroundColor="#1dabf0" TextColor="#fff" Clicked="Button_Clicked_1" ></Button>
+        <Button Text="Exercise 3" BackgroundColor="#1dabf0" TextColor="#fff" Clicked="Button_Clicked_2" ></Button>
+        <Button Text="Exercise 4" BackgroundColor="#1dabf0" TextColor="#fff" Clicked="Button_Clicked_3" ></Button>
+        <Button Text="Exercise 5" BackgroundColor="#1dabf0" TextColor="#fff" Clicked="Button_Clicked_4" ></Button>
+        
+    </StackLayout>
+
+</ContentPage>
